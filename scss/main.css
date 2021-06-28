@@ -1,0 +1,446 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#home {
+  background-image: url(../img/bg.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 90vmax;
+  padding-bottom: 8.5em;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.custom-nav .navbar-brand img {
+  width: 80px;
+  height: 80px;
+  margin-top: -9px;
+}
+
+.custom-nav .navbar-brand span {
+  color: #133A50;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-left: 0.5em;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-link {
+  color: #133A50;
+  font-weight: 100;
+  margin-left: 2.2em;
+  -webkit-transition: 0.3s color ease;
+  transition: 0.3s color ease;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-link:hover {
+  color: black;
+}
+
+.custom-nav #navbarNav .navbar-nav .get-started-button {
+  background-color: #8A74DC;
+  color: white;
+  border-radius: 2em;
+  border: 0;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+.custom-nav #navbarNav .navbar-nav .get-started-button:hover {
+  color: white;
+}
+
+.custom-section {
+  margin-top: 4em;
+  margin-left: 0.8em;
+}
+
+.custom-section h1 {
+  font-weight: 700;
+  color: #133A50;
+}
+
+.custom-section h3 {
+  font-weight: 400;
+  color: #133A50;
+}
+
+.custom-section p {
+  margin-top: 1.2em;
+  font-weight: 100;
+  color: #133A50;
+  font-size: 1.2em;
+}
+
+.custom-section a {
+  display: inline-block;
+  background-color: #8A74DC;
+  color: white;
+  border-radius: 2em;
+  border: 0;
+  padding: 0.5em 4em;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+.custom-section ul {
+  font-weight: 100;
+  font-size: 1.1em;
+}
+
+.feature-section {
+  background-color: #133A50;
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+
+.feature-section h1 {
+  font-weight: 700;
+  color: white;
+  margin: 0.4em;
+}
+
+.feature-section p {
+  font-weight: 100;
+  color: white;
+  margin: 1em;
+  font-size: 1.2em;
+}
+
+.feature-section .features {
+  margin: 0.4em;
+}
+
+.feature-section .card-body h4 {
+  font-weight: 400;
+  color: #133A50;
+}
+
+.feature-section .card-body p {
+  font-weight: 100;
+  color: #133A50;
+  margin-left: 0;
+}
+
+.feature-section .card-body a {
+  display: inline-block;
+  color: #8A74DC;
+  border: 0;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+.feature-section .card {
+  border: 0;
+}
+
+.price-section {
+  margin-top: 2em;
+  padding-top: 2em;
+  padding-bottom: 3em;
+  padding-left: 1em;
+}
+
+.price-section .big-card {
+  border: 0;
+  background-color: #918DFF;
+  padding: 2em 1.5em;
+}
+
+.price-section .big-card h3 {
+  font-weight: 700;
+  color: white;
+}
+
+.price-section .big-card h4 {
+  font-weight: 700;
+  color: white;
+}
+
+.price-section .big-card p {
+  font-weight: 100;
+  color: white;
+}
+
+.price-section .big-card img {
+  margin-top: 1em;
+}
+
+.price-section .small-card {
+  margin-top: 2em;
+}
+
+.price-section .small-card h2 {
+  font-weight: 700;
+  color: #133A50;
+}
+
+.price-section .small-card h4 {
+  font-weight: 100;
+  color: #133A50;
+}
+
+.price-section .small-card h5 {
+  font-weight: 100;
+  color: #133A50;
+  font-size: 1rem;
+}
+
+.price-section .small-card .text-right {
+  text-align: right;
+}
+
+.price-section .small-card a {
+  color: #8A74DC;
+  border: 0;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+.price-section .price-card-white {
+  border: 0;
+  background-color: #e1e1ed;
+  padding: 2em 1.5em;
+}
+
+.price-section .price-card-white h4 {
+  font-weight: 700;
+  color: #133A50;
+}
+
+.price-section .price-card-white p {
+  font-weight: 100;
+  color: #133A50;
+}
+
+.price-section .price-card-white hr {
+  border: 0;
+  border-top: 4px solid #133A50;
+  width: 30px;
+}
+
+.price-section .price-card-white li {
+  font-weight: 100;
+  color: #133A50;
+}
+
+.price-section .price-card-white a {
+  display: inline-block;
+  background-color: #8A74DC;
+  color: white;
+  border-radius: 2em;
+  border: 0;
+  padding: 0.5em 4em;
+  text-decoration: none;
+  font-weight: 100;
+  margin-top: 1em;
+}
+
+.price-section .price-card-white .card-body {
+  padding: 0;
+}
+
+.price-section .price-card-primary {
+  border: 0;
+  background-color: #8A74DC;
+  padding: 2em 1.5em;
+}
+
+.price-section .price-card-primary h4 {
+  font-weight: 700;
+  color: white;
+}
+
+.price-section .price-card-primary p {
+  font-weight: 100;
+  color: white;
+}
+
+.price-section .price-card-primary hr {
+  border: 0;
+  border-top: 4px solid white;
+  width: 30px;
+}
+
+.price-section .price-card-primary li {
+  font-weight: 100;
+  color: white;
+}
+
+.price-section .price-card-primary a {
+  display: inline-block;
+  background-color: #e1e1ed;
+  color: #133A50;
+  border-radius: 2em;
+  border: 0;
+  padding: 0.5em 4em;
+  text-decoration: none;
+  font-weight: 100;
+  margin-top: 1em;
+}
+
+.price-section .price-card-primary .card-body {
+  padding: 0;
+}
+
+.review-section {
+  background-color: #133A50;
+  margin-top: 2em;
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+
+.review-section h1 {
+  font-weight: 700;
+  color: white;
+  margin: 0.4em;
+}
+
+.review-section p {
+  font-weight: 100;
+  color: white;
+  margin: 1em;
+  font-size: 1.2em;
+}
+
+.review-section h4 {
+  font-weight: 700;
+  color: white;
+  margin: 0.4em;
+}
+
+.review-section span {
+  font-weight: 100;
+  color: #133A50;
+  margin-left: 1em;
+}
+
+.review-section .card {
+  border: none;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+          box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+}
+
+.review-section .testimonial-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.review-section .card-body h4 {
+  font-weight: 700;
+  color: white;
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+.review-section .card-body .ratings {
+  margin-bottom: 0.5em;
+}
+
+.review-section .card-body p {
+  font-weight: 100;
+  color: white;
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.contactus-section {
+  background-color: white;
+  margin-top: 2em;
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+
+.contactus-section h1 {
+  font-weight: 700;
+  color: #133A50;
+  margin: 0.4em;
+}
+
+.contactus-section p {
+  font-weight: 100;
+  color: #133A50;
+  margin: 1em;
+  font-size: 1.2em;
+}
+
+.contactus-section .address-box h4 {
+  color: #133A50;
+  margin-left: 1em;
+}
+
+.contactus-section .address-box p {
+  font-weight: 100;
+  color: #133A50;
+  margin: 1em;
+  margin-left: 2em;
+  font-size: 1.2em;
+}
+
+.contactus-section .form-floating {
+  font-weight: 100;
+  color: #133A50;
+}
+
+.contactus-section .form-floating input {
+  color: #133A50;
+}
+
+.contactus-section .form-floating span {
+  font-weight: 100;
+  color: #133A50;
+}
+
+.contactus-section a {
+  width: 100%;
+  display: inline-block;
+  background-color: #8A74DC;
+  color: white;
+  border-radius: 0.3em;
+  border: 0;
+  padding: 1em 4em;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.primary-color {
+  background-color: #133A50;
+  margin-top: 2em;
+  padding-top: 3.5em;
+  padding-bottom: 3em;
+}
+
+.primary-color .link-box span {
+  font-size: 0.9rem;
+  color: white;
+  font-weight: 400;
+}
+
+.primary-color .link-box .title {
+  font-size: 0.9rem;
+  color: white;
+  font-weight: 400;
+  margin-bottom: -0.5em;
+}
+
+.primary-color .link-box a {
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+
+.primary-color .company-box span {
+  font-size: 0.9rem;
+  color: white;
+  font-weight: 100;
+}
+
+.primary-color .company-box h2 {
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
