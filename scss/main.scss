@@ -1,0 +1,469 @@
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+// Variables
+$primaryColor: #8A74DC;
+$secondaryColor: #918DFF;
+$tertiaryColor: #e1e1ed;
+$textColor: #133A50;
+
+// Styles
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#home {
+    background-image: url(../img/bg.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 90vmax;
+    padding-bottom: 8.5em;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.custom-nav {
+    .navbar-brand {
+        img {
+            width: 80px;
+            height: 80px;
+            margin-top: -9px;
+        }
+        span {
+            color: $textColor;
+            font-weight: 700;
+            font-size: 1.4rem;
+            margin-left: 0.5em;
+        }
+    }
+
+    #navbarNav {
+        .navbar-nav {
+            .nav-link {
+                color: $textColor;
+                font-weight: 100;
+                margin-left: 2.2em;
+                transition: 0.3s color ease;
+
+                &:hover {
+                    color: darken($textColor, 100%);
+                }
+            }
+            .get-started-button {
+                background-color: $primaryColor;
+                color: white;
+                border-radius: 2em;
+                border: 0;
+                padding-left: 4em;
+                padding-right: 4em;
+
+                &:hover {
+                    color: lighten($textColor, 100%);
+                }
+            }
+        }
+    }
+}
+
+.custom-section {
+    margin-top: 4em;
+    margin-left: 0.8em;
+    
+    h1 {
+        font-weight: 700;
+        color: $textColor;
+    }
+
+    h3 {
+        font-weight: 400;
+        color: $textColor;
+    }
+
+    p {
+        margin-top: 1.2em;
+        font-weight: 100;
+        color: $textColor;
+        font-size: 1.2em;
+    }
+
+    a {
+        display: inline-block;
+        background-color: $primaryColor;
+        color: white;
+        border-radius: 2em;
+        border: 0;
+        padding: 0.5em 4em;
+        text-decoration: none;
+        font-weight: 100;
+    }
+
+    ul {
+        font-weight: 100;
+        font-size: 1.1em;
+    }
+}
+
+.feature-section {
+    background-color: $textColor;
+    padding-top: 2em;
+    padding-bottom: 3em;
+
+    h1 {
+        font-weight: 700;
+        color: white;
+        margin: 0.4em;
+    }
+
+    p {
+        font-weight: 100;
+        color: white;
+        margin: 1em;
+        font-size: 1.2em;
+    }
+
+    .features {
+        margin: 0.4em;
+    }
+
+    .card-body {
+        h4 {
+            font-weight: 400;
+            color: $textColor;
+        }
+        
+        p {
+            font-weight: 100;
+            color: $textColor;
+            margin-left: 0;
+        }
+
+        a {
+            display: inline-block;
+            color: $primaryColor;
+            border: 0;
+            text-decoration: none;
+            font-weight: 100;
+        }
+    }
+
+    .card {
+        border: 0;
+    }
+}
+
+.price-section {
+    margin-top: 2em;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    padding-left: 1em;
+
+    .big-card {
+        border: 0;
+        background-color: $secondaryColor;
+        padding: 2em 1.5em;
+
+        h3 {
+            font-weight: 700;
+            color: white;
+        }
+
+        h4 {
+            font-weight: 700;
+            color: white;
+        }
+
+        p {
+            font-weight: 100;
+            color: white;
+        }
+
+        img {
+            margin-top: 1em;
+        }
+    }
+
+    .small-card {
+        margin-top: 2em;
+
+        h2 {
+            font-weight: 700;
+            color: $textColor;
+        }
+
+        h4 {
+            font-weight: 100;
+            color: $textColor;
+        }
+
+        h5 {
+            font-weight: 100;
+            color: $textColor;
+            font-size: 1rem;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+
+        a {
+            color: $primaryColor;
+            border: 0;
+            text-decoration: none;
+            font-weight: 100;
+        }
+    }
+
+    .price-card-white {
+        border: 0;
+        background-color: $tertiaryColor;
+        padding: 2em 1.5em;
+
+        h4 {
+            font-weight: 700;
+            color: $textColor;
+        }
+
+        p {
+            font-weight: 100;
+            color: $textColor;
+        }
+
+        hr {
+            border: 0;
+            border-top: 4px solid $textColor;
+            width: 30px;
+        }
+
+        li {
+            font-weight: 100;
+            color: $textColor;
+        }
+
+        a {
+            display: inline-block;
+            background-color: $primaryColor;
+            color: white;
+            border-radius: 2em;
+            border: 0;
+            padding: 0.5em 4em;
+            text-decoration: none;
+            font-weight: 100;
+            margin-top: 1em;
+        }
+
+        .card-body {
+            padding: 0;
+        }
+    }
+
+    .price-card-primary {
+        border: 0;
+        background-color: $primaryColor;
+        padding: 2em 1.5em;
+
+        h4 {
+            font-weight: 700;
+            color: white;
+        }
+
+        p {
+            font-weight: 100;
+            color: white;
+        }
+
+        hr {
+            border: 0;
+            border-top: 4px solid white;
+            width: 30px;
+        }
+
+        li {
+            font-weight: 100;
+            color: white;
+        }
+
+        a {
+            display: inline-block;
+            background-color: $tertiaryColor;
+            color: $textColor;
+            border-radius: 2em;
+            border: 0;
+            padding: 0.5em 4em;
+            text-decoration: none;
+            font-weight: 100;
+            margin-top: 1em;
+        }
+
+        .card-body {
+            padding: 0;
+        }
+    }
+}
+
+.review-section {
+    background-color: $textColor;
+    margin-top: 2em;
+    padding-top: 2em;
+    padding-bottom: 3em;  
+    
+    h1 {
+        font-weight: 700;
+        color: white;
+        margin: 0.4em;
+    }
+
+    p {
+        font-weight: 100;
+        color: white;
+        margin: 1em;
+        font-size: 1.2em;
+    }
+    
+    h4 {
+        font-weight: 700;
+        color: white;
+        margin: 0.4em;
+    }
+
+    span {
+        font-weight: 100;
+        color: $textColor;
+        margin-left: 1em;
+    }
+
+    .card {
+        border: none;
+        cursor: pointer;
+        box-shadow: 0 0 40px rgba(51, 51, 51, .1)
+    }
+    
+    .testimonial-list {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .card-body {
+        h4 {
+            font-weight: 700;
+            color: white;
+            margin: 0;
+            margin-bottom: 0.5em;
+        }
+
+        .ratings     {
+            margin-bottom: 0.5em;
+        }
+
+        p {
+            font-weight: 100;
+            color: white;
+            margin: 0;
+            font-size: 1.2em;
+        }
+    }
+}
+
+.contactus-section {
+    background-color: white;
+    margin-top: 2em;
+    padding-top: 2em;
+    padding-bottom: 3em;  
+    
+    h1 {
+        font-weight: 700;
+        color: $textColor;
+        margin: 0.4em;
+    }
+
+    p {
+        font-weight: 100;
+        color: $textColor;
+        margin: 1em;
+        font-size: 1.2em;
+    }
+
+    .address-box {
+
+        h4 {
+            color: $textColor;
+            margin-left: 1em;
+        }
+
+        p {
+            font-weight: 100;
+            color: $textColor;
+            margin: 1em;
+            margin-left: 2em;
+            font-size: 1.2em;
+        }
+    }
+
+    .form-floating {
+        font-weight: 100;
+        color: $textColor;
+
+        input {
+            color: $textColor;
+        }
+
+        span {
+            font-weight: 100;
+            color: $textColor;
+        }
+    }
+
+    a {
+        width:100%;
+        display: inline-block;
+        background-color: $primaryColor;
+        color: white;
+        border-radius: 0.3em;
+        border: 0;
+        padding: 1em 4em;
+        text-decoration: none;
+        font-weight: 400;
+    }
+}
+
+.primary-color {
+    background-color: $textColor;
+    margin-top: 2em;
+    padding-top: 3.5em;
+    padding-bottom: 3em;
+    
+    .link-box {
+        span {
+            font-size: 0.9rem;
+            color: white;
+            font-weight: 400;
+        }
+
+        .title {
+            font-size: 0.9rem;
+            color: white;
+            font-weight: 400;
+            margin-bottom: -0.5em;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: 100;
+            font-size: 0.9rem;
+        }
+    }
+
+    .company-box {
+        span {
+            font-size: 0.9rem;
+            color: white;
+            font-weight: 100;
+        }
+
+        h2 {
+            color: white;
+        }
+    }
+}
